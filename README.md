@@ -8,6 +8,9 @@
 <!-- omit in toc -->
 ## 📢 Updates
 
+- **2026.08**: We release the source code and models for LEEVLA, which focuses on task-aware structured latent environment evolution in world models. [[GitHub]](https://github.com/LyuQi127/LEEVLA) [[Paper]](https://arxiv.org/abs/2607.08182) ![](https://img.shields.io/badge/arXiv-2026.07-red)
+- **2026.08**: We release the source code and models for PixelVLA, which focuses on enhancing the pixel-level understanding capabilities of world models. [[GitHub]](https://github.com/WenqiLiang/PixelVLA) [[Paper]](https://openreview.net/forum?id=7M6ryCABIc) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
+- **2026.08**: Add recent ECCV 2026 world model papers
 - **2026.07**: Add recent ICML 2026 world model papers
 - **2026.05**: Add recent world model papers
 - **2026.01**: We release our paper. "Learning to Model the World: A Survey of World Models in Artificial Intelligence"
@@ -138,6 +141,10 @@ The recent timeline of world models, covering core methods and the release of op
 * LWM: World model on million-length video and language with blockwise ringattention [[Paper]](https://iclr.cc/virtual/2025/poster/30229) ![](https://img.shields.io/badge/ICRL-2025-0077c2)
 * Speech World Model: Causal State-Action Planning with Explicit Reasoning for Speech [[Paper]](https://openreview.net/forum?id=YGUKPGO182) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
 ### Visual Observations
+* LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models [[Paper]](https://arxiv.org/abs/2603.07145) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
+* EgoWM: Walk through Paintings: Egocentric World Models from Internet Priors [[Paper]](https://arxiv.org/abs/2601.15284) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
+* Seoul World Model: Grounding World Simulation Models in a Real-World Metropolis [[Paper]](https://arxiv.org/abs/2603.15583) ![](https://img.shields.io/badge/ECCV-2026_Oral-0077c2)
+* WorldCache: Content-Aware Caching for Accelerated Video World Models [[Paper]](https://arxiv.org/abs/2603.22286) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * Astra: General Interactive World Model with Autoregressive Denoising [[Paper]](https://openreview.net/forum?id=8UZpmrxoLG) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
 * Composition of Memory Experts for Diffusion World Models [[Paper]](https://openreview.net/forum?id=sUEdpZCHdp) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
 * Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention [[Paper]](https://icml.cc/virtual/2026/poster/63654) ![](https://img.shields.io/badge/ICML-2026-0077c2)
@@ -227,6 +234,8 @@ The recent timeline of world models, covering core methods and the release of op
 
 ### Manipulation
 #### Visual Futrue Prediction
+* DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation [[Paper]](https://arxiv.org/abs/2606.32028) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
+* EgoSim: Egocentric World Simulator for Embodied Interaction Generation [[Paper]](https://arxiv.org/abs/2604.01001) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * Structured 4D Latent World Model for Robot Planning [[Paper]](https://icml.cc/virtual/2026/poster/63054) ![](https://img.shields.io/badge/ICML-2026-0077c2)
 * Visuo-Tactile World Models [[Paper]](https://openreview.net/forum?id=zKQSyT7a7n) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
 * DDP-WM: Disentangled Dynamics Prediction for Efficient World Models [[Paper]](https://icml.cc/virtual/2026/poster/62480) ![](https://img.shields.io/badge/ICML-2026-0077c2)
@@ -264,6 +273,7 @@ The recent timeline of world models, covering core methods and the release of op
 
 
 #### Control-Oriented Planning
+* RoboTALES: Learning Reasoning-Guided Robot Policies via Task-Aligned Simulated Futures [[Paper]](https://arxiv.org/abs/2607.06018) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models (PETS) [[Paper]](https://arxiv.org/abs/1805.12114) ![](https://img.shields.io/badge/NeurIPS-2018-blue)
 * TD-MPC: Temporal Difference Learning for Model Predictive Control [[Paper]](https://arxiv.org/abs/2203.04955) ![](https://img.shields.io/badge/ICML-2022-blue)
 * Time-Aware World Model for Adaptive Prediction and Control (TAWM) [[Paper]](https://arxiv.org/abs/2506.08441) ![](https://img.shields.io/badge/ICML-2025-blue)
@@ -289,6 +299,7 @@ The recent timeline of world models, covering core methods and the release of op
 * WestWorld: A Knowledge-Encoded Scalable Trajectory World Model for Diverse Robotic Systems [[Paper]](https://icml.cc/virtual/2026/poster/61703) ![](https://img.shields.io/badge/ICML-2026-0077c2)
 * World4Omni: A Zero-Shot Framework from Image Generation World Model to Robotic Manipulation [[Paper]](https://arxiv.org/abs/2506.23919v1) ![](https://img.shields.io/badge/arXiv-2025.06-red) 
 ### Navigation
+* NavWM: A Unified Navigation World Model for Foresight-Driven Planning [[Paper]](https://arxiv.org/abs/2606.24101) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * NWM: Navigation World Models [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Bar_Navigation_World_Models_CVPR_2025_paper.pdf) ![会议徽章](https://img.shields.io/badge/CVPR-2025-blue)
 * Kinodynamic: Kinodynamic Motion Planning for Mobile Robot Navigation across Inconsistent World Models [[Paper]](https://arxiv.org/abs/2509.26339) ![会议徽章](https://img.shields.io/badge/RSS%20Workshop25-blue)
 * Neuro-Symbolic: Perspective-Shifted Neuro-Symbolic World Models for Socially-Aware Robot Navigation [[Paper]](https://arxiv.org/abs/2503.20425) ![会议徽章](https://img.shields.io/badge/arXiv-2025.03-red)
@@ -331,6 +342,7 @@ The recent timeline of world models, covering core methods and the release of op
 ## Part 6: World Models for Autonomous Driving
 
 ### Predictive Modeling
+* Driver-WM: A Driver-Centric Traffic-Conditioned Latent World Model for In-Cabin Dynamics Rollout [[Paper]](https://arxiv.org/abs/2605.05092) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * DeepSight: Long-Horizon World Modeling via Latent States Prediction for End-to-End Autonomous Driving [[Paper]](https://icml.cc/virtual/2026/poster/62484) ![](https://img.shields.io/badge/ICML-2026-0077c2)
 * CoIRL-AD: Collaborative-Competitive Imitation-Reinforcement Learning in Latent World Models for Autonomous Driving [[Paper]](https://icml.cc/virtual/2026/poster/62362) ![](https://img.shields.io/badge/ICML-2026-0077c2)
 * DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving [[Paper]](https://icml.cc/virtual/2026/poster/61191) ![](https://img.shields.io/badge/ICML-2026-0077c2)
@@ -347,6 +359,7 @@ The recent timeline of world models, covering core methods and the release of op
 * DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation [[Paper]](https://ieeexplore.ieee.org/abstract/document/11094017) ![](https://img.shields.io/badge/CVPR-2025-blue)
 
 ### Action-Conditioned Imagination
+* OmniNWM: Omniscient Driving Navigation World Models [[Paper]](https://arxiv.org/abs/2510.18313) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * GAIA-1: A Generative World Model for Autonomous Driving [[Paper]](https://arxiv.org/abs/2309.17080) ![](https://img.shields.io/badge/arXiv-2023.09-red)
 * WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens [[Paper]](https://arxiv.org/abs/2401.09985) ![](https://img.shields.io/badge/arXiv-2024.01-red)
 * OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-72624-8_4) ![](https://img.shields.io/badge/ECCV-2024-blue)
@@ -359,6 +372,8 @@ The recent timeline of world models, covering core methods and the release of op
 
 
 ### Decision-Centric Integration
+* UniDrive-WM: Unified Understanding, Planning and Generation World Model for Autonomous Driving [[Paper]](https://arxiv.org/abs/2601.04453) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
+* ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving [[Paper]](https://arxiv.org/abs/2604.02714) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * Think2Drive: Efficient Reinforcement Learning by Thinking with Latent World Model for Autonomous Driving (in CARLA-V2) [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-72995-9_9) ![](https://img.shields.io/badge/ECCV-2024-blue)
 * Doe-1: Closed-Loop Autonomous Driving with Large World Model [[Paper]](https://arxiv.org/abs/2412.09627) ![](https://img.shields.io/badge/arXiv-2024.12-red)
 * AdaWM: Adaptive World Model based Planning for Autonomous Driving [[Paper]](https://openreview.net/forum?id=NEu8wgPctU) ![](https://img.shields.io/badge/ICLR-2025-blue)
@@ -454,6 +469,8 @@ The recent timeline of world models, covering core methods and the release of op
 ## Part 11: Benchmark of World Models
 
 ### Benchmark Datasets \& Evaluation Metrics
+* MemoBench: Benchmarking World Modeling in Dynamically Changing Environments [[Paper]](https://arxiv.org/abs/2606.27537) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
+* Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models [[Paper]](https://arxiv.org/abs/2607.05390) ![](https://img.shields.io/badge/ECCV-2026-0077c2)
 * World-In-World: World Models in a Closed-Loop World [[Paper]](https://openreview.net/pdf?id=yDmb7xAfeb) ![](https://img.shields.io/badge/ICLR-2026_Oral-0077c2)
 * OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling [[Paper]](https://openreview.net/forum?id=1y1YFKb9pp) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
 * DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving [[Paper]](https://openreview.net/forum?id=OrgL5DsU0f) ![](https://img.shields.io/badge/ICLR-2026-0077c2)
